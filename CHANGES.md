@@ -1,3 +1,6 @@
+## 5.0.0 / 2020-05-02
+* Rewrite in TypeScript
+
 ## 4.0.1 / 2018-01-26 🇦🇺
 
 * Fix auto-fill scenarios by using data from `onChange` events [[#112](https://github.com/insin/react-maskedinput/pull/112)]

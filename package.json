@@ -1,8 +1,8 @@
 {
-  "name": "react-maskedinput",
+  "name": "@jaredrolt/react-maskedinput",
   "version": "4.0.1",
   "description": "Masked <input/> React component",
-  "main": "lib/index.js",
+  "main": "lib/MaskedInput.tsx",
   "module": "es/index.js",
   "files": [
     "es",
@@ -19,6 +19,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "@jaredrolt/inputmask-core": "^3.0.0",
     "inputmask-core": "^2.1.1",
     "prop-types": "^15.5.7"
   },
@@ -31,12 +32,12 @@
     "react": "16.x",
     "react-dom": "16.x"
   },
-  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
-  "homepage": "https://github.com/insin/react-maskedinput",
+  "author": "Jared Rolt <jrolt92@gmail.com>",
+  "homepage": "https://github.com/jaredrolt/react-maskedinput",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/insin/react-maskedinput.git"
+    "url": "http://github.com/jaredrolt/react-maskedinput.git"
   },
   "keywords": [
     "react",

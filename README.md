@@ -1,6 +1,8 @@
 # `MaskedInput`
 
-A [React](http://facebook.github.io/react/) component for `<input>` masking, built on top of [inputmask-core](https://github.com/insin/inputmask-core).
+This is a Typescript clone of [https://github.com/insin/react-maskedinput](https://github.com/insin/react-maskedinput)
+
+A [React](http://facebook.github.io/react/) component for `<input>` masking, built on top of [inputmask-core](https://github.com/jaredrolt/inputmask-core).
 
 ![This project has never been used by its author, other than while making it.](https://img.shields.io/badge/author--usage-never-red.png "This project has never been used by its author, other than while making it")
 
@@ -84,7 +86,7 @@ function CustomInput(props) {
 
 The masking pattern to be applied to the `<input>`.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#pattern) for supported formatting characters.
+See the [inputmask-core docs](https://github.com/jaredrolt/inputmask-core#pattern) for supported formatting characters.
 
 ### `onChange` : `(event: SyntheticEvent) => any`
 
@@ -98,13 +100,13 @@ This will be passed a `SyntheticEvent` with the input accessible via `event.targ
 
 Customised format character definitions for use in the pattern.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#formatcharacters) for details of the structure of this object.
+See the [inputmask-core docs](https://github.com/jaredrolt/inputmask-core#formatcharacters) for details of the structure of this object.
 
 ### `placeholderChar`: `string`
 
 Customised placeholder character used to fill in editable parts of the pattern.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#placeholderchar--string) for details.
+See the [inputmask-core docs](https://github.com/jaredrolt/inputmask-core#placeholderchar--string) for details.
 
 ### `value` : `string`
 

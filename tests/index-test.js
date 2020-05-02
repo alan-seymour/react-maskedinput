@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import expect from 'expect'
-import MaskedInput from 'src'
+import { MaskedInput } from 'src/MaskedInput'
 
 const setup = () => {
   const element = document.createElement('div')
