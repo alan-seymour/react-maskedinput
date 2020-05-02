@@ -1,13 +1,13 @@
 {
   "name": "@jaredrolt/react-maskedinput",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Masked <input/> React component",
   "main": "lib/MaskedInput.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf ./lib && tsc",
     "lint": "eslint src tests",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
