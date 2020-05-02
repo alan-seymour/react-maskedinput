@@ -39,7 +39,6 @@ export interface MaskedInputProps {
 export class MaskedInput extends React.Component<MaskedInputProps> {
   mask: InputMask;
   input?: HTMLInputElement;
-  props: MaskedInputProps;
 
   constructor(props: MaskedInputProps) {
     super(props);
