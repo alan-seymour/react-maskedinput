@@ -1,6 +1,6 @@
 {
   "name": "@jaredrolt/react-maskedinput",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Masked <input/> React component",
   "main": "lib/MaskedInput.tsx",
   "module": "es/index.js",
