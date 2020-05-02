@@ -1,5 +1,6 @@
 ## 5.0.0 / 2020-05-02
 * Rewrite in TypeScript
+* Use like `import { MaskedInput } from '@jaredrolt/react-maskedinput';`
 
 ## 4.0.1 / 2018-01-26 🇦🇺
 

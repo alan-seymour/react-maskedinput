@@ -2,12 +2,9 @@
   "name": "@jaredrolt/react-maskedinput",
   "version": "5.0.0",
   "description": "Masked <input/> React component",
-  "main": "lib/MaskedInput.tsx",
-  "module": "es/index.js",
+  "main": "src/MaskedInput.tsx",
   "files": [
-    "es",
-    "lib",
-    "umd"
+    "src"
   ],
   "scripts": {
     "build": "nwb build-react-component",
@@ -19,9 +16,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "@jaredrolt/inputmask-core": "^3.0.0",
-    "inputmask-core": "^2.1.1",
-    "prop-types": "^15.5.7"
+    "@jaredrolt/inputmask-core": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
