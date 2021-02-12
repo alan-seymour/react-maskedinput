@@ -1,6 +1,6 @@
 {
-  "name": "@jaredrolt/react-maskedinput",
-  "version": "5.0.3",
+  "name": "@alan-seymour/react-maskedinput",
+  "version": "5.0.4",
   "description": "Masked <input/> React component",
   "main": "lib/MaskedInput.js",
   "files": [
@@ -30,11 +30,14 @@
     "typescript": "^3.8.3"
   },
   "author": "Jared Rolt <jrolt92@gmail.com>",
-  "homepage": "https://github.com/jaredrolt/react-maskedinput",
+  "contributors": [
+    "Alan Seymour <hello@alanseymour.net>"
+  ],
+  "homepage": "https://github.com/alan-seymour/react-maskedinput",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaredrolt/react-maskedinput.git"
+    "url": "http://github.com/alan-seymour/react-maskedinput.git"
   },
   "keywords": [
     "react",
